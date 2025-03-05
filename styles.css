@@ -1,0 +1,304 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Madimi+One&display=swap);
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css (1) ***!
+  \*********************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap);
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/code/menu.css ***!
+  \*********************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap);
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css (2) ***!
+  \*********************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d9cfc1;
+}
+
+header, nav button {
+  background-color: #cbc2b5;
+  font-family: "Madimi One", sans-serif;
+  letter-spacing: 1.5px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav button:hover {
+  cursor: pointer;
+  color: white;
+}
+
+nav button {
+  position: relative;
+}
+
+nav button::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -8px;
+  transition: all 0.3s ease;
+}
+
+nav button:hover::after {
+  width: 100%;
+} 
+
+button, header {
+  font-weight: bold;
+  color: black;
+}
+
+button {
+  border: none;
+  font-size: 1rem;
+}
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/code/home.css ***!
+  \*********************************************************************/
+.container-welcome, footer, .textContainer button {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+.container-welcome, footer {
+  background-color: #477998;
+}
+
+.container-welcome {
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  gap: 15%;
+}
+
+.container-welcome h2 {
+  font-size: 2.8rem;
+  line-height: 45px;
+  color: white;
+}
+
+.container-welcome p {
+  margin-top: 5px;
+  font-size: 0.95rem;
+  color: #e0d7cc;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.textContainer button {
+  margin-top: 15px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-size: 0.9rem;
+  letter-spacing: 1.3px;
+}
+
+.textContainer button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 239, 239);
+}
+
+.container-welcome img {
+  width: 35%;
+}
+
+.feature-container {
+  padding: 70px 0;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-container ul {
+  align-self: center;
+  width: 70%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-container li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  gap: 10px;
+}
+
+.feature-container p {
+  text-align: center;
+  text-wrap: wrap;
+  padding: 0 15%;
+  font-size: 1.2rem;
+}
+
+.feature-container img {
+  width: 80%;
+}
+
+footer {
+  color: white;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  padding: 30px 15vw 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer div h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+footer div p { 
+  font-size: 0.9rem;
+  color: #d9cfc1;
+}
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/code/menu.css (1) ***!
+  \*************************************************************************/
+.menu-container {
+  width: 70vw;
+  height: 200vh;
+  margin: 30px auto;
+  box-shadow: 0 0 80px rgba(127, 125, 125, 0.856);
+  position: relative;
+}
+
+.menu-container img, .menu-container__text {
+  position: absolute;
+}
+
+#beans {
+  width: 20%;
+  left: 5%;
+}
+#floura {
+  width: 50%;
+  right: 0;
+}
+#vase {
+  width: 25%;
+  bottom: 33%;
+}
+#coffee-cup {
+  right: 0;
+  width: 22%;
+  bottom: 10%;
+}
+#cup {
+  bottom: 0;
+  width: 28%;
+}
+
+.menu-container__text {
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -18%);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  width: 40%;
+}
+
+.menu-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-family: "Playwrite IT Moderna", cursive;
+}
+
+.menu-list-container h3 {
+  font-size: 2.2rem;
+  color: #594a47;
+  margin-bottom: 10px;
+}
+
+.menu-list-container ul {
+  list-style: none;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-list li {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #5a4b48;
+}
+/*!**********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/code/about.css ***!
+  \**********************************************************************/
+.about-container {
+  font-family: "Outfit", sans-serif;
+  width: 90vw;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-container h2 {
+  grid-column: 1/3;
+  justify-self: center;
+  margin-bottom: 50px;
+
+  font-size: 2.8rem;
+  color: #594a47;
+}
+
+.about-container div {
+  align-self: center;
+  margin-right: 50px;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #6F615C;
+}
+
+.about-container img {
+  height: 45vh;
+  border-radius: 45%;
+  justify-self: center;
+  align-self: center;
+}
