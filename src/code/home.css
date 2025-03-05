@@ -1,0 +1,108 @@
+.container-welcome, footer, .textContainer button {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+.container-welcome, footer {
+  background-color: #477998;
+}
+
+.container-welcome {
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  gap: 15%;
+}
+
+.container-welcome h2 {
+  font-size: 2.8rem;
+  line-height: 45px;
+  color: white;
+}
+
+.container-welcome p {
+  margin-top: 5px;
+  font-size: 0.95rem;
+  color: #e0d7cc;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.textContainer button {
+  margin-top: 15px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-size: 0.9rem;
+  letter-spacing: 1.3px;
+}
+
+.textContainer button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 239, 239);
+}
+
+.container-welcome img {
+  width: 35%;
+}
+
+.feature-container {
+  padding: 70px 0;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-container ul {
+  align-self: center;
+  width: 70%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-container li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  gap: 10px;
+}
+
+.feature-container p {
+  text-align: center;
+  text-wrap: wrap;
+  padding: 0 15%;
+  font-size: 1.2rem;
+}
+
+.feature-container img {
+  width: 80%;
+}
+
+footer {
+  color: white;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  padding: 30px 15vw 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer div h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+footer div p { 
+  font-size: 0.9rem;
+  color: #d9cfc1;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+.menu-container {
+  width: 70vw;
+  height: 200vh;
+  margin: 30px auto;
+  box-shadow: 0 0 80px rgba(127, 125, 125, 0.856);
+  position: relative;
+}
+
+.menu-container img, .menu-container__text {
+  position: absolute;
+}
+
+#beans {
+  width: 20%;
+  left: 5%;
+}
+#floura {
+  width: 50%;
+  right: 0;
+}
+#vase {
+  width: 25%;
+  bottom: 33%;
+}
+#coffee-cup {
+  right: 0;
+  width: 22%;
+  bottom: 10%;
+}
+#cup {
+  bottom: 0;
+  width: 28%;
+}
+
+.menu-container__text {
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -18%);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  width: 40%;
+}
+
+.menu-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-family: "Playwrite IT Moderna", cursive;
+}
+
+.menu-list-container h3 {
+  font-size: 2.2rem;
+  color: #594a47;
+  margin-bottom: 10px;
+}
+
+.menu-list-container ul {
+  list-style: none;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-list li {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #5a4b48;
+}
